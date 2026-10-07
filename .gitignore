@@ -1,0 +1,9 @@
+.DS_Store
+.claude/
+
+# Wallet pass signing material and build output never get published
+wallet/*.p12
+wallet/*.pem
+wallet/*.cer
+wallet/build/
+wallet/*.pkpass

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahir Rana</title>
+<meta name="description" content="Mahir Rana. Computer science at Rutgers, software engineer. Projects, resume and contact.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("fonts/JetBrainsMono-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("fonts/JetBrainsMono-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+  }
+
+  :root {
+    --bg: #000;
+    --fg: #fff;
+    --dim: #8a8a8a;
+    --rule: #333;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; border-radius: 0; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    font-variant-ligatures: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 72px 16px 48px;
+  }
+
+  h1 {
+    font-size: clamp(30px, 9vw, 44px);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .tagline { margin-top: 14px; color: var(--dim); }
+
+  .email {
+    display: inline-block;
+    margin-top: 6px;
+    color: var(--fg);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    overflow-wrap: anywhere;
+  }
+  .email:hover { border-bottom-color: var(--fg); }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 32px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid var(--fg);
+    background: var(--bg);
+    color: var(--fg);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 var(--fg);
+  }
+  .btn:hover, .btn:focus-visible { background: var(--fg); color: var(--bg); }
+  .btn:active { transform: translate(3px, 3px); box-shadow: none; }
+
+  a:focus-visible { outline: 1px dashed var(--fg); outline-offset: 4px; }
+
+  h2 {
+    margin-top: 72px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--fg);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .projects { list-style: none; }
+
+  .projects li {
+    padding: 22px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .projects h3 { font-size: 16px; font-weight: 700; }
+
+  .projects p { margin-top: 4px; }
+
+  .stack { color: var(--dim); font-size: 13px; }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .links a {
+    color: var(--fg);
+    text-decoration: none;
+    border-bottom: 1px solid var(--fg);
+  }
+  .links a:hover { background: var(--fg); color: var(--bg); }
+
+  footer {
+    margin-top: 56px;
+    color: var(--dim);
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Mahir Rana</h1>
+    <p class="tagline">Computer science at Rutgers, class of 2027. Software engineer.</p>
+    <a class="email" href="mailto:mahir.rana05@gmail.com">mahir.rana05@gmail.com</a>
+    <nav class="buttons" aria-label="Contact and resume">
+      <a class="btn" href="mailto:mahir.rana05@gmail.com">Email</a>
+      <a class="btn" href="https://github.com/mahir-rana">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/mahir-rana">LinkedIn</a>
+      <a class="btn" href="resume.pdf">Resume</a>
+    </nav>
+  </header>
+
+  <section aria-labelledby="projects">
+    <h2 id="projects">Projects</h2>
+    <ul class="projects">
+      <li>
+        <h3>Comms</h3>
+        <p>A real-time event coordination app for iPhone, with role-targeted push alerts and Live Activities.</p>
+        <p class="stack">Swift / SwiftUI / TypeScript / Firebase</p>
+        <div class="links">
+          <a href="https://mahir-rana.github.io/comms-site/">site</a>
+        </div>
+      </li>
+      <li>
+        <h3>Wonsungi Taja</h3>
+        <p>Korean typing practice, built on a dependency-free Hangul composition engine verified against all 11,172 Unicode syllables.</p>
+        <p class="stack">TypeScript / Next.js / React / Vitest</p>
+        <div class="links">
+          <a href="https://wonsungi-taja.vercel.app">live</a>
+          <a href="https://github.com/mahir-rana/wonsungi-taja">code</a>
+        </div>
+      </li>
+      <li>
+        <h3>Contract Risk Review Pipeline</h3>
+        <p>Data pipeline over 510 contracts and 13,823 labeled spans that shortlists high-risk clause categories for review. Break Through Tech AI Studio x Accenture.</p>
+        <p class="stack">Python / Pandas / Jupyter</p>
+        <div class="links">
+          <a href="https://github.com/mahir-rana/Accenture-1D-contract-review-challenge">code</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <footer>Plain HTML. No trackers.</footer>
+</main>
+</body>
+</html>

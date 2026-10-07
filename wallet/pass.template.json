@@ -1,0 +1,38 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "__PASS_TYPE_ID__",
+  "teamIdentifier": "__TEAM_ID__",
+  "serialNumber": "mahir-rana-portfolio-1",
+  "organizationName": "Mahir Rana",
+  "description": "Mahir Rana portfolio",
+  "logoText": "MAHIR RANA",
+  "backgroundColor": "rgb(0, 0, 0)",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "labelColor": "rgb(138, 138, 138)",
+  "generic": {
+    "primaryFields": [
+      { "key": "name", "label": "PORTFOLIO", "value": "Mahir Rana" }
+    ],
+    "secondaryFields": [
+      { "key": "email", "label": "EMAIL", "value": "mahir.rana05@gmail.com" }
+    ],
+    "auxiliaryFields": [
+      { "key": "site", "label": "SITE", "value": "mahir-rana.github.io" },
+      { "key": "linkedin", "label": "LINKEDIN", "value": "in/mahir-rana" }
+    ],
+    "backFields": [
+      { "key": "url", "label": "Portfolio", "value": "https://mahir-rana.github.io" },
+      { "key": "linkedinUrl", "label": "LinkedIn", "value": "https://linkedin.com/in/mahir-rana" },
+      { "key": "github", "label": "GitHub", "value": "https://github.com/mahir-rana" },
+      { "key": "mail", "label": "Email", "value": "mahir.rana05@gmail.com" }
+    ]
+  },
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "https://mahir-rana.github.io",
+      "messageEncoding": "iso-8859-1",
+      "altText": "mahir-rana.github.io"
+    }
+  ]
+}
