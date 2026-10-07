@@ -11,20 +11,62 @@
   "labelColor": "rgb(138, 138, 138)",
   "generic": {
     "primaryFields": [
-      { "key": "name", "label": "PORTFOLIO", "value": "Mahir Rana" }
+      {
+        "key": "name",
+        "label": "PORTFOLIO",
+        "value": "Mahir Rana"
+      }
     ],
     "secondaryFields": [
-      { "key": "email", "label": "EMAIL", "value": "mahir.rana05@gmail.com" }
+      {
+        "key": "email",
+        "label": "EMAIL",
+        "value": "mahir.rana05@gmail.com"
+      }
     ],
     "auxiliaryFields": [
-      { "key": "site", "label": "SITE", "value": "mahir-rana.github.io" },
-      { "key": "linkedin", "label": "LINKEDIN", "value": "in/mahir-rana" }
+      {
+        "key": "site",
+        "label": "SITE",
+        "value": "mahir-rana.github.io"
+      },
+      {
+        "key": "linkedin",
+        "label": "LINKEDIN",
+        "value": "in/mahir-rana"
+      }
     ],
     "backFields": [
-      { "key": "url", "label": "Portfolio", "value": "https://mahir-rana.github.io" },
-      { "key": "linkedinUrl", "label": "LinkedIn", "value": "https://linkedin.com/in/mahir-rana" },
-      { "key": "github", "label": "GitHub", "value": "https://github.com/mahir-rana" },
-      { "key": "mail", "label": "Email", "value": "mahir.rana05@gmail.com" }
+      {
+        "key": "url",
+        "label": "Portfolio",
+        "value": "https://mahir-rana.github.io",
+        "attributedValue": "<a href='https://mahir-rana.github.io'>mahir-rana.github.io</a>"
+      },
+      {
+        "key": "linkedinUrl",
+        "label": "LinkedIn",
+        "value": "https://linkedin.com/in/mahir-rana",
+        "attributedValue": "<a href='https://www.linkedin.com/in/mahir-rana'>linkedin.com/in/mahir-rana</a>"
+      },
+      {
+        "key": "github",
+        "label": "GitHub",
+        "value": "https://github.com/mahir-rana",
+        "attributedValue": "<a href='https://github.com/mahir-rana'>github.com/mahir-rana</a>"
+      },
+      {
+        "key": "mail",
+        "label": "Email",
+        "value": "mahir.rana05@gmail.com",
+        "attributedValue": "<a href='mailto:mahir.rana05@gmail.com'>mahir.rana05@gmail.com</a>"
+      },
+      {
+        "key": "resume",
+        "label": "Resume",
+        "value": "https://mahir-rana.github.io/resume.pdf",
+        "attributedValue": "<a href='https://mahir-rana.github.io/resume.pdf'>Open resume (PDF)</a>"
+      }
     ]
   },
   "barcodes": [
