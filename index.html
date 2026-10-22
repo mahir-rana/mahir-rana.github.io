@@ -104,6 +104,8 @@
     text-transform: uppercase;
   }
 
+  .section-note { margin-top: 10px; color: var(--dim); font-size: 13px; }
+
   .projects { list-style: none; }
 
   .projects li {
@@ -156,14 +158,6 @@
     <h2 id="projects">Projects</h2>
     <ul class="projects">
       <li>
-        <h3>Comms</h3>
-        <p>A real-time event coordination app for iPhone, with role-targeted push alerts and Live Activities.</p>
-        <p class="stack">Swift / SwiftUI / TypeScript / Firebase</p>
-        <div class="links">
-          <a href="https://mahir-rana.github.io/comms-site/">site</a>
-        </div>
-      </li>
-      <li>
         <h3>Wonsungi Taja</h3>
         <p>Korean typing practice, built on a dependency-free Hangul composition engine verified against all 11,172 Unicode syllables.</p>
         <p class="stack">TypeScript / Next.js / React / Vitest</p>
@@ -179,6 +173,31 @@
         <div class="links">
           <a href="https://github.com/mahir-rana/Accenture-1D-contract-review-challenge">code</a>
         </div>
+      </li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="one-word">
+    <h2 id="one-word">One Word Projects</h2>
+    <p class="section-note">I name things like I'm paying by the letter.</p>
+    <ul class="projects">
+      <li>
+        <h3>Comms</h3>
+        <p>A real-time event coordination app for iPhone, with role-targeted push alerts and Live Activities.</p>
+        <p class="stack">Swift / SwiftUI / TypeScript / Firebase</p>
+        <div class="links">
+          <a href="https://mahir-rana.github.io/comms-site/">site</a>
+        </div>
+      </li>
+      <li>
+        <h3>Stand</h3>
+        <p>Build choir standing arrangements, animate the transitions between them, and share a link so each singer can follow their own spot on their phone.</p>
+        <p class="stack">TypeScript / Next.js / React / Supabase</p>
+      </li>
+      <li>
+        <h3>Crawl</h3>
+        <p>A ranked night journal for iPhone. Log a night out as an ordered route of stops, rank each venue against the ones you've already been to, and share crawls friends can run themselves.</p>
+        <p class="stack">Swift / SwiftUI / Supabase / PostGIS / Next.js</p>
       </li>
     </ul>
   </section>
